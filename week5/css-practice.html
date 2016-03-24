@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+      p.pos-fixed{
+      	width: 400px; height: 100px;
+      	position: fixed; top: 30px;right: 5px; background: #c4f
+      }
+      .nestedp{
+      	position: fixed; top: 50px; right: 20px; width: 380px;
+      }
+
+      .parentdiv{
+      	background: #ccc; width: 500px; height: 200px; position: absolute;
+
+
+      }
+      .childdiv{
+         background: yellow;width: 300px; position: absolute; top: 30px; 
+         left:30px; height:40px;  overflow: auto; /*cursor: nw-resize;*/
+        
+
+      }
+      
+      .nested2{
+      	background: green;
+      }
+
+      .parentdiv2{
+      	background: #ccc; width: 300px; height: 200px; position: absolute;
+      	right: 20px;
+
+
+      }
+      .childdiv2{
+         background: yellow;width: 200px; position: relative; top: 30px; 
+         left:30px; height:40px;  overflow: auto; /*cursor: nw-resize;*/
+        
+
+      }
+       
+      .nested2div2{
+      	background: blue;
+      }
+      .div3{
+         background: yellow;width: 300px; position: absolute; top: 30px; 
+         left:30px; height:40px;  overflow: auto; /*cursor: nw-resize;*/
+         z-index: -1
+
+     
+	</style>
+</head>
+<body>
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+
+<h2>here is a level 2 header element</h2>
+<h3>here is a level 3 header element</h3>
+
+<p class="pos-fixed">
+	this is paragraph tag element
+<p class="nestedp" style="background: red">a nested paragraph tag element</p>
+where is the text
+</p>
+
+<div class="parentdiv">
+<!-- contenteditable="true" -->
+	<div  class="childdiv">nested div element whose position is affected in relation to its parent element
+	position is affected in relation to its parent element
+	position is affected in relation to its parent element
+	</div>
+	<div class="nested2">this is the second nested div element
+	  this is the second nested div element
+	  this is the second nested div element
+	  this is the second nested div element
+	  this is the second nested div element
+
+	</div>
+</div>
+
+<div class="parentdiv2">
+<!-- contenteditable="true" -->
+	<div  class="childdiv2">nested div element whose position is affected in relation to its parent element
+	position is affected in relation to its parent element
+	position is affected in relation to its parent element
+	</div>
+	<div class="nested2div2">this is the second nested div element
+	  this is the second nested div element
+	  this is the second nested div element
+	  this is the second nested div element
+	  this is the second nested div element
+
+	</div>
+</div>
+
+<div  class="div3"> 
+   positioned relative to the html block
+	</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/*external stylesheet*/
+
+body{
+	
+	background: yellow;
+	background-image: url(image2.jpg);
+	background-repeat: repeat;
+}
+
+p{
+	background-color: #ccc;
+}
+
+.p1{
+	color: green;
+}
+
