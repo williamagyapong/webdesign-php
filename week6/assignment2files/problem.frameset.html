@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+ <!-- the page has been fully commented to aid your understanding -->
+ <!-- using frames to layout a page -->
+ <frameset rows="15%, 10%, *"> <!-- divides the browser window into 3 rows -->
+     <frame src="header.html"> <!-- occupies the first row -->
+     <frame src="nav.html">    <!-- occupies the second row -->
+
+     <frameset rows="80%, *"> <!-- divides the third row into two rows -->
+          <frameset cols="20%, 60%, 20%"> <!--divides the first sub row into three columns -->
+
+          	 <frame src="leftside.html" name=""><!--takes the first column -->
+       	     <frame src="middle.html" name=""><!-- takes the second column -->
+       	     <frame src="rightside.html" name=""><!-- takes the third column -->
+          </frameset>
+     	   
+          <frame src="footer.html" name=""><!-- occupies the second sub row -->
+     </frameset>
+ 	
+
+ </frameset>
+</html>
